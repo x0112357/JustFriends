@@ -1,0 +1,52 @@
+body {
+	background-color: #131339;
+	color:white;
+	font-family:Arial;
+}
+body::-webkit-scrollbar {
+    width: 0.4em;
+    padding-left:10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius:5px;
+}
+#loading {
+	width:150px;
+	text-align:center;
+	margin-top:20px;
+}
+#tabs {
+	margin-top:5px;
+}
+/*override bootstrap navbar styling*/
+#tabs>li>a {
+	border-radius:0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	border:1px solid rgba(255,255,255,0.5);
+	border-bottom:1px solid #131339;
+	background-color:#131339;
+	color:white;
+}
+a {
+	color:rgba(255,255,255,0.5);
+}
+.uptime {
+	display:inline-block;
+	margin-left:3px;
+}
+.tweetBox {
+	width:90%;
+	display:inline-block;
+	background-color:rgba(255,255,255,0.1);
+	margin-bottom:5px;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:auto;
+	word-wrap:break-word;
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:5px;
+	border-radius:5px;
+}
